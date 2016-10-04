@@ -1,7 +1,7 @@
 rankhospital <- function(state, outcome, num = "best") {
     
     #importing the file
-    df <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+    df <- read.csv("data/outcome-of-care-measures.csv", colClasses = "character")
     
     #checking the validity of outcome
     valid.outc <- c("heart attack", "heart failure", "pneumonia")

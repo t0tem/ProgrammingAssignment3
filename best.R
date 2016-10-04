@@ -7,7 +7,7 @@ best <- function(state, outcome) {
     }
     
     #importing file
-    df <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+    df <- read.csv("data/outcome-of-care-measures.csv", colClasses = "character")
     
     #checking the validity of state
     if (!state %in% df[,7]) {
